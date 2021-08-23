@@ -11,6 +11,7 @@ import CarouselItem from "./CarouselItem";
 import { ButtonContainer, ButtonView, ButtonText } from "./styles";
 
 
+
 export default function Carousel() {
 
 const { width } = useWindowDimensions();

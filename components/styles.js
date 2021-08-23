@@ -27,7 +27,7 @@ export const MyView = styled.View`
 `
 export const ButtonContainer = styled.View`
       background-color: black;
-      width: 392px;
+      width: 400px;
       display: flex;
       flex-direction: row;
       align-items: flex-end;
@@ -38,7 +38,11 @@ export const ButtonView = styled.View`
       width: 140px;
       align-items: center;
       background-color: crimson;
-      justify-content: center
+      justify-content: center;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-bottom: 10px;
+      border-radius:20px
 `
 export const ButtonText = styled.Text`
       text-align: center;
