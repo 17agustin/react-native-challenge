@@ -11,7 +11,6 @@ import CarouselItem from "./CarouselItem";
 import { ButtonContainer, ButtonView, ButtonText } from "./styles";
 
 
-
 export default function Carousel() {
 
 const { width } = useWindowDimensions();
@@ -20,13 +19,17 @@ const [page, setPage] = useState(1);
 
 const limit = slides && Math.ceil(slides.length / 3);
 
+let rndInt = Math.floor(Math.random() * 2) + 1
 
 const paginate = (array, page) => {
   if (array.length < 3 && array.length !== 0) array;
   else {
     const offset = page * 3;
     const initial = offset - 3;
-    return array.slice(initial, offset);
+    let newArray = array.map((elem)=>{
+        return{...elem, data: [elem.data[rndInt]]}
+    }) 
+    return newArray.slice(initial, offset);
   }
 };
 
