@@ -12,7 +12,6 @@ To Run the App you just need to:
 
 # project functionality
 
--in Android
 
 ![vidma_recorder_23082021_100340](https://user-images.githubusercontent.com/77363543/130482608-bbe9b86e-06d2-4e04-a1d6-60ba47eeca40.gif)
 
