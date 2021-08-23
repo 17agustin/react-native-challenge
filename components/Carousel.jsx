@@ -67,6 +67,6 @@ const paginate = (array, page) => {
      </ButtonContainer>
    </>
  ) : (
-   <Text>cargando...</Text>
+   <Text>loading...</Text>
  );
 }

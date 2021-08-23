@@ -19,14 +19,14 @@ const slides = [
       title: "Third Block",
       data: [
         "https://picsum.photos/id/1012/500",
-        "https://picsum.photos/id/1016/500",
+         null,
         "https://picsum.photos/id/1024/500",
       ],
     },
     {
       title: "Fourth Block",
       data: [
-        "https://picsum.photos/id/311/500/500",
+        "",
         "https://picsum.photos/id/296/500/500",
         "https://picsum.photos/id/243/500/500",
       ],
@@ -68,7 +68,7 @@ const slides = [
       data: [
         "https://picsum.photos/id/511/500/500",
         "https://picsum.photos/id/171/500/500",
-        "https://picsum.photos/id/21/500/500",
+        undefined,
       ],
     },
   ];
